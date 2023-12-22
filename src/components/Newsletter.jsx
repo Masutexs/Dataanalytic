@@ -1,6 +1,3 @@
-import React from 'react';
-import Button from './Button';
-
 const Newsletter = () => {
   return (
     <div className="w-full py-16 text-white px-4">

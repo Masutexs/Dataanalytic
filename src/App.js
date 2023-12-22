@@ -1,12 +1,12 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Analytics from './components/Analytics';
-import Newsletter from './components/Newsletter';
-import Cards from './components/Cards';
-import Footer from './components/Footer';
-// import Button from "./components/Button";
-
+import { SpeedInsights } from "@vercel/speed-insights/react";
+import {
+  Analytics,
+  Cards,
+  Footer,
+  Hero,
+  Navbar,
+  Newsletter,
+} from "./components";
 function App() {
   return (
     <div>
@@ -16,6 +16,7 @@ function App() {
       <Newsletter />
       <Cards />
       <Footer />
+      <SpeedInsights/>
     </div>
   );
 }
