@@ -1,6 +1,5 @@
-import React from "react";
-import Button from "./Button";
-
+import React from 'react';
+import Button from './Button';
 
 const Newsletter = () => {
   return (
@@ -19,14 +18,13 @@ const Newsletter = () => {
               type="email"
               placeholder="Enter Email"
             />
-            <Button text={'Notify Me'}/>
-            {/* <button className="bg-[#00df9b] w-[200px] rounded-md font-medium ml-6 my-6 px-6 py-3 text-black">
+            <button className="bg-[#00df9b] w-[200px] rounded-md font-bold ml-3 mt-4 lg:mt-0 h-[50px] text-black">
               Notify Me
-            </button> */}
+            </button>
           </div>
         </div>
         <p>
-          We care about the protection of your data. Read our{" "}
+          We care about the protection of your data. Read our{' '}
           <span className="text-[#00df9b]">Privacy Policy.</span>
         </p>
       </div>
